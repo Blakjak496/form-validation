@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="./success.html" method="GET">
+      <div id="username">
+        <label for="Username"
+          >Username:
+          <input id="usernameInput" name="Username" type="text" />
+        </label>
+      </div>
+      <div id="firstname">
+        <label for="Firstname">
+          Firstname:
+          <input id="firstnameInput" name="Firstname" type="text" />
+        </label>
+      </div>
+      <div id="lastname">
+        <label for="Lastname"
+          >Lastname:
+          <input id="lastnameInput" name="Lastname" type="text" />
+        </label>
+      </div>
+      <div id="dob">
+        <label for="Date of Birth"
+          >Date of Birth:
+          <input id="dobInput" name="Date of Birth" type="date" />
+        </label>
+      </div>
+      <button id="submitBtn" disabled="disabled">Submit</button>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>

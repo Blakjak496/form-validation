@@ -1,0 +1,15 @@
+form {
+  margin: auto;
+}
+
+.invalidInput {
+  color: red;
+}
+
+.invalidBox {
+  border-color: red;
+}
+
+.validBox {
+  border-color: green;
+}
